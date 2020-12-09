@@ -1,0 +1,75 @@
+body > img{
+	width: 100%;
+	height: auto;
+}
+main{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+main div{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	padding-top: 2em;
+}
+main div section{
+	text-align: center;
+	width: 80%;
+}
+main img{
+	width: 80%;
+	height: auto;
+}
+
+.body section{
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1.4em;
+}
+
+.body .odd{
+	display: grid;
+	grid-template-columns: 35% 65%; 
+	grid-template-areas: "a b""a c";
+	width: 80%;
+}
+.body .even{
+	display: grid;
+	grid-template-columns: 65% 35% ;
+	grid-template-areas: "b a""c a";
+	width: 80%;
+
+}
+.body > section h2{
+	grid-area: b;
+	padding: 0em;
+	text-align: center;
+	align-self: end;
+}
+.body >section img{
+	grid-area: a;
+	width: 90%;
+	height: auto;
+}
+.body > section p{
+	grid-area: c;
+	padding: 1em;
+	text-align: center;
+
+}
+
+
+
+
+div hr{
+	width: 55%;
+	background-color: black;
+	height: 3px;
+	margin-bottom: 60px;
+	margin-top: 60px;
+	margin-right:auto; 
+	margin-left:auto;
+}
+footer{
+	margin-top: 3em;
+}

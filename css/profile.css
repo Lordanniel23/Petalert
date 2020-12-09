@@ -1,0 +1,145 @@
+main{
+	display: grid;
+	width: 85%;
+	margin-right: auto;
+	margin-left: auto;
+}
+main > div{
+	background-color: #FEE715;
+	margin-top: 2em;
+	height: 550px;
+	display: grid;
+	grid-template-areas: 
+	"a a a"
+	"a a a"
+	"a a a"
+	"b c e"
+	"b d f";
+	grid-template-rows: 100px 100px 100px ;
+}
+main div img:nth-child(1) {
+ 	width: 100%;
+ 	height: auto;
+ 	grid-area: a;
+}
+main div img:nth-child(2) {
+	position: relative;
+	width: 300px;
+	top: -100px;
+	left: 80px;
+	grid-area: b
+}
+main div h1{grid-area: c; align-self: end;}
+main div h2{grid-area: d;align-self: start;}
+main div .pm{
+	grid-area: e; 
+	align-self: end;
+}
+main div .pm a{
+	background-color: #515151;
+	text-decoration: none;
+	color: #FEE715;
+	font-size: 1.3em;
+	padding: .5em;
+}
+.body{
+	display: grid;
+	width: 85%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.body div{
+	display: grid;
+	grid-template-areas: 
+	"info feedisa"
+	"info feedisa"
+	"info feeddalawa"
+	"photo feeddalawa"
+	"photo feedtatlo"
+	"photo feedtatlo";
+	grid-template-columns: 40% 60%;
+
+}
+.body div > section:nth-child(1){
+	grid-area: info;
+	padding: 1em;
+	margin: 1em;
+	border: black 1px solid;
+	font-size: 1.3em;
+}
+.body div > section:nth-child(1) ul{
+	padding-top: 2em;
+}
+.body div > section:nth-child(2){
+	grid-area: photo;
+	padding: 1em;
+	margin: 1em;
+	border: black 1px solid;
+	text-align: center;
+}
+.body div > section:nth-child(2) a{
+	text-decoration: none;
+	background-color: #c4c4c4;
+	border: black 1px solid;
+	padding:0px 2em 0px 2em;
+
+}
+.body div > .feed{
+	grid-area: feed;
+	display: grid;
+	width: 100%;
+	grid-template-areas: 
+	"a"
+	"b"
+	"c";
+}
+.body div section:nth-child(3){
+	grid-area: feedisa;
+}
+.body div section:nth-child(4){
+	grid-area: feeddalawa;
+}
+.body div section:nth-child(5){
+	grid-area: feedtatlo;
+}
+.body div .peed{
+	display: grid;
+	grid-template-areas: 
+ 		 "a a b b b"
+ 		 "a a c c c"
+ 		 "a a d d d"
+ 		 "a a e e e";
+	margin: 1em;
+	height: 17em;
+	background-color: #515151;
+	color: #FEE715;
+	font-size: 1.1em;
+	padding: .5em; 
+
+}
+.body div .peed img{
+	grid-area: a;
+	 height: auto;
+	 padding-right: 5px;
+
+}
+.body div .peed h2{grid-area: b;}
+.body div .peed p{grid-area: c;}
+.body div .peed ul{grid-area: d;}
+.body div .peed div{
+	grid-area: e;
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+body div .peed.pindot{
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+body div .peed .pindot a{
+	border: #FEE715 1px solid; 
+	margin: 10px;
+	color: #FEE715;
+	text-decoration: none;
+	text-align: center;
+	align-self: center;
+}

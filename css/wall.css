@@ -1,0 +1,93 @@
+.logo{
+	width: 100%;
+}
+.logo img{
+	width: 100%;
+	height: auto;
+}
+main {
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+main .main{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
+}
+main .main .a, main .main .b{
+	margin: 1em;
+	height: 17em;
+	background-color: #515151;
+	color: #FEE715;
+	font-size: 1.1em;
+	padding: .5em;
+}
+main .main .a{
+	display: grid;
+	grid-template-areas: 
+ 		 "b b b a a"
+ 		 "c c c a a"
+ 		 "d d d a a"
+ 		 "e e e a a"
+
+}
+main .main .a img{
+	grid-area: a; 
+	height: 100%;
+	padding-left: 5px;
+}
+main .main .a h2{grid-area: b;}
+main .main .a p{grid-area: c;}
+main .main .a ul{grid-area: d;}
+main .main .a div{grid-area: e;}
+
+main .main .b{
+	display: grid;
+	grid-template-areas: 
+ 		 "a a b b b"
+ 		 "a a c c c"
+ 		 "a a d d d"
+ 		 "a a e e e"
+}
+main .main .b img{
+	grid-area: a;
+	 height: 100%;
+	 padding-right: 5px;
+}
+main .main .b h2{grid-area: b;}
+main .main .b p{grid-area: c;}
+main .main .b ul{grid-area: d;}
+main .main .b div{
+	grid-area: e;
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+main .main .pindot{
+
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+main .main .pindot a{
+	border: #FEE715 1px solid; 
+	margin: 10px;
+	color: #FEE715;
+	text-decoration: none;
+	text-align: center;
+	align-self: center;
+}
+
+main .load {
+	display: flex;
+	padding: 1em;
+	margin-bottom: 1em;
+	justify-content: center;
+}
+main .load a{
+	font-size: 1.5em;
+	text-decoration: none;
+	background-color: #515151;
+	width:25%;
+	text-align: center;
+	color: #FEE715
+}

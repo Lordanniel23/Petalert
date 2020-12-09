@@ -1,0 +1,64 @@
+body > img{
+	width: 100%;
+	height: auto;
+}
+main{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 3em;
+}
+main div{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	padding-top: 2em;
+}
+main div section{
+	text-align: center;
+	width: 80%;
+}
+main img{
+	width: 80%;
+	height: auto;
+}
+body > div{
+	display: grid;
+	grid-template-areas: "a""b";
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+body > div > section:nth-child(1){
+	display: grid;
+	grid-template-columns: 60% 40%;
+	grid-template-rows: 40% 60%;
+	grid-template-areas: "a b""c b";
+	font-size: 1.3em;
+}
+body > div > section:nth-child(2){
+	display: grid;
+	grid-template-columns: 40% 60%;
+	grid-template-rows: 40% 60%;
+	grid-template-areas: "b a""b c";
+	font-size: 1.3em;
+}
+body > div > section > h2{
+	grid-area: a;
+	align-self: end;
+	text-align: center;
+	font-size: 1.5em;
+}
+body > div > section > img{
+	grid-area: b;
+	width: 80%;
+	height: auto;
+	padding: 2em;
+	position: relative;
+}
+div section .bla{
+	grid-area: c;
+	padding-top:1.2em;
+}
+div section ol{
+	padding-top: 1em	;
+}

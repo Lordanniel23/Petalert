@@ -1,0 +1,129 @@
+.logo{
+	width: 100%;
+}
+.logo img{
+	width: 100%;
+	height: auto;
+}
+main{
+	width: 80%;
+	display: flex;
+	padding-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+main section{
+	width: 25%;
+	margin-left: auto;
+	margin-right: auto;
+	border: black 1px solid;
+	padding: 5px;
+}
+main section img{
+	padding: 30px;
+	padding-bottom: 0px;
+	width: 80%;
+	height: auto;
+}
+
+main section p{
+	padding-left:  30px;
+	padding-right:  30px;
+}
+main .button{
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	border-radius: 5px;
+	border-color: #FEE715;
+	background-color: #FEE715;
+	padding: 2px;
+	margin-bottom: 30px;
+}
+main .button div{
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+main .button a{
+	text-decoration: none;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	font-size: 20px;
+}
+div hr{
+	width: 55%;
+	background-color: black;
+	height: 3px;
+	margin-bottom: 60px;
+	margin-top: 60px;
+	margin-right:auto; 
+	margin-left:auto;
+}
+.main2{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.main2 section:nth-child(1){
+	display: flex;
+	padding: 10px;
+}
+.main2 section:nth-child(1) div:nth-child(1) img{
+	width: 100%;
+}
+.main2 section:nth-child(1) div:nth-child(1){
+	width: 40%;
+	padding: 30px;
+}
+.main2 section:nth-child(1) div:nth-child(2){
+	width: 60%;
+}
+.main2 section:nth-child(1) div:nth-child(2) h2{
+	font-size: 35px;
+}
+.main2 section:nth-child(1) div:nth-child(2) p{
+	font-size: 20px;
+}
+
+.main2 section:nth-child(2){
+	display: flex;
+	padding: 10px;
+}
+.main2 section:nth-child(2) div:nth-child(1) img{
+	width: 100%;
+}
+.main2 section:nth-child(2) div:nth-child(1){
+	width: 60%;
+}
+.main2 section:nth-child(2) div:nth-child(2){
+	width: 40%;
+	padding: 30px;
+}
+.main2 section:nth-child(2) div:nth-child(1) h2{
+	font-size: 35px;
+}
+.main2 section:nth-child(2) div:nth-child(1) p{
+	font-size: 20px;
+}
+
+.video{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 60px;
+}
+.video h2{
+	font-size: 35px;
+	text-align: center; 
+}
+.video div{
+ 	width: 80%;
+ 	margin-left: auto;
+	margin-right: auto;
+}
+.video div iframe{
+	width: 100%;
+	height: 450px;
+}

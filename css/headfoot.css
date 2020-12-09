@@ -1,0 +1,133 @@
+*{
+	font-family: 'Patrick Hand SC', cursive;
+	margin: 0px;
+}
+body{
+	width: 100%;
+	margin: 0px;
+}
+header div{
+	width: 30%;
+	float: left;
+}
+header div img{
+	padding-left: 50px;
+	padding-top: 10px;
+}
+header h1{
+	width: 30%;
+	float: left;
+	font-size: 40px;
+	padding-top: 20px;
+}
+header nav ul:nth-child(1){
+	float: right;
+	width: 30%;
+	background-image: url(../img/head/acct.png);
+	height: 43px;
+	margin:0px;
+}
+header nav ul:nth-child(1) li{
+	list-style: none;
+	float: left;
+	width: 20%;
+	padding: 5px;
+	text-align: right;
+	padding-left: 30px;
+}
+header nav ul:nth-child(1) li a{
+	color: #FEE715;
+	text-decoration: none;
+	font-size: 20px;
+
+}
+header nav ul:nth-child(2) li a{
+	color: #FEE715;
+	text-decoration: none;
+	font-size: 20px;
+	padding-left: 30px;
+}
+header nav ul:nth-child(2){
+	float: left;
+	width: 100%;
+	background-color: #515151;
+	list-style: none;
+	height: 50px;
+	margin-bottom: 0px;
+
+}
+header nav ul:nth-child(2) li{
+	width: 10%;
+	float: left;
+	padding: 5px;
+	padding-top: 10px;
+	color: #FEE715;
+	text-decoration: none; 
+}
+header nav ul:nth-child(2) li:nth-child(1){
+	text-align: left;
+	padding-right: 500px;
+}
+header nav ul li a:hover{
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	background-color: #515151;
+	
+	padding: 30px;
+	color: #FEE715;
+	font-size: 25px;
+}
+footer div{
+	width: 70%;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+}
+footer div section{
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+footer div section:nth-child(1) ul{
+	list-style: none;
+}footer div section:nth-child(1) ul li{
+	display: flex;
+	float: left;
+	width: 25%
+}
+footer div section:nth-child(1) .img{
+padding-top: 30px;
+}
+footer div section ul{
+	list-style: none;
+	padding-left: 0px;
+}
+footer div section ul li a{
+	text-decoration: none;
+	color: #FEE715;
+}
+footer div section:nth-child(2){
+	border-left: black 1px solid;
+	border-color:  #FEE715;
+}
+footer div section:nth-child(4){
+	border-right: black 1px solid;
+	border-color:  #FEE715;
+}
+footer a:hover{
+text-decoration: underline;
+}

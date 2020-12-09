@@ -1,0 +1,77 @@
+*{
+	font-family: 'Patrick Hand SC', cursive;
+	margin: 0px;
+}
+body{
+	width: 80%;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	padding: 5em;
+	height: 450px;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+body form{
+	background-color: #FEE715;
+	padding: 1em;
+	display: grid;
+	grid-template-areas:
+		"a a"
+		"b c"
+		"d e"
+		"f g"
+		"h i"
+		"submit submit";
+	grid-template-columns: 40% 60%;
+}
+body form h1{grid-area: a;text-align: center; font-size: 3em; padding-bottom: 1em;}
+body form label[for=email]{grid-area: b}
+body form input[type=email]{grid-area: c}
+body form label[for=username]{grid-area: d}
+body form #username{grid-area: e}
+body form label[for=password]{grid-area: f}
+body form #password{grid-area: g}
+body form label[for=password2]{grid-area: h}
+body form #password2{grid-area: i}
+body form #submit{grid-area: submit;text-align: center;}
+body form label{
+	font-size: 2em;
+	margin: .5em;
+}
+body form input{
+	background-color: #FEE715;
+	margin: .5em;
+	font-size: 2em;
+}
+body form #submit {
+	background-color: #515151;
+	color: #FEE715;
+	font-size: 1.5em;
+	margin: 1em;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+
+body div{
+	padding-top: 1em;
+	background-color: #515151;
+	font-size: 3em;
+	text-align: center;
+	display: grid;
+	align-content: center;
+	color: #FEE715;
+	text-decoration: none;
+}
+body div a{
+	color: #FEE715;
+	text-decoration: none;
+}
+body div a:hover{
+	color: #FEE715;
+	text-decoration: none;
+	text-decoration-line: underline;
+}
